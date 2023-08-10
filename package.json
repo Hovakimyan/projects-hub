@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:book": "cd ./packages/book-me && npm start",
+    "start:react": "cd ./packages/react-ui && npm start",
+  },
+  "devDependencies": {
+    "lerna": "^7.1.5"
+  },
+}
